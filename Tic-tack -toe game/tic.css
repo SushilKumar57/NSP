@@ -1,0 +1,71 @@
+<style>
+    /* CSS Code */
+    /* Heading */
+    #h1 { 
+        font-family: 'Poppins', sans-serif;
+    }
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5, 
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 50px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+  
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 100px;
+        height: 40px;
+        border: 1px solid dodgerblue;
+        margin: auto;
+        border-radius: 4px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #56baed;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+    }
+  
+    /* Player turn space */
+    #print {
+        font-family:'Poppins', sans-serif;
+  
+        color: #56baed;
+        font-size: 19px;
+    }
+  
+    /* Main Contianer */
+    #main {
+        text-align: center;
+    }
+  
+    /* Game Instruction Text */
+    #ins {
+        font-family:'Poppins', sans-serif;
+              
+        color: #56baed;
+        font-size: 19px;
+    }
+    #footer {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: snow;
+        color : chocolate;
+        clear: both;
+        text-align: center;
+        padding: 5px;
+    }
+    
+html{
+  width:100%;
+  height:100%;
+  background:linear-gradient(to bottom right, Violet,Indigo,Blue,Green,Yellow,Orange,Red);
+}
+</style>
